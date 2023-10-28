@@ -9,5 +9,4 @@ def hanoi (n, tiang_awal, tiang_target, tiang_bantu,):
     hanoi(n-1, tiang_bantu, tiang_target, tiang_awal)
 
 n = int(input('masukkan cakram :'))
-hanoi(n, 'A', 'C', 'B')
     
